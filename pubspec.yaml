@@ -1,0 +1,57 @@
+name: projett
+
+description: A new Flutter project.
+
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.2 <3.0.0"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+ 
+  cupertino_icons: ^1.0.2
+  firebase_auth: ^3.3.17
+  firebase_core: ^1.14.1
+  http: ^0.13.4
+  pin_code_fields: ^7.4.0
+  cloud_firestore: ^3.1.8
+  bloc: ^8.0.3
+  cool_alert: ^1.0.0
+  lottie: 
+  
+
+dev_dependencies:
+  flutter_native_splash: ^2.1.6
+  flutter_test:
+    sdk: flutter
+  
+
+  
+  flutter_lints: ^1.0.0
+  
+
+flutter:
+
+  
+  uses-material-design: true
+
+ 
+  assets:
+     - images/
+ 
+  fonts:
+    - family: Cinzel
+      fonts:
+        - asset: fonts/Cinzel-Regular.ttf
+  
+  
+
